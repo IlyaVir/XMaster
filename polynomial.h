@@ -331,13 +331,14 @@ polynomial *plus_minus(polynomial *head_a, polynomial *head_b, bool minus) {
         return copy_polynomial(head_a);
     }
 
-    polynomial *head_new_polynomial, *new_polynomial;
+    polynomial *head_new_polynomial, *new_polynomial, *prev_new_polynimial = nullptr;
     head_new_polynomial = new_polynomial = new polynomial;
     merge(head_a, head_b, head_new_polynomial, minus);
 
     while (head_a != nullptr || head_b != nullptr) {
         if (new_polynomial -> coefficient != 0) {
             new_polynomial -> next = new polynomial;
+            prev_new_polynimial = new_polynomial;
             new_polynomial = new_polynomial -> next;
         }
         merge(head_a, head_b, new_polynomial, minus);
@@ -346,7 +347,11 @@ polynomial *plus_minus(polynomial *head_a, polynomial *head_b, bool minus) {
         new_polynomial -> next = nullptr;
     } else {
         delete new_polynomial;
-        new_polynomial = head_new_polynomial = nullptr;
+        if (prev_new_polynimial != nullptr) {
+            prev_new_polynimial -> next = nullptr;
+        } else { // head_new_polynomial == new_polynomial
+            new_polynomial = head_new_polynomial = nullptr;
+        }
     }
 
     return head_new_polynomial;
