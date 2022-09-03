@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Music/Classic.mp3</file>
+        <file>Music/Horde.mp3</file>
+        <file>Music/North.mp3</file>
+        <file>Sounds/A_lot_of_errors.wav</file>
+        <file>Sounds/Are_you_know_why.wav</file>
+        <file>Sounds/Begin_faster.wav</file>
+        <file>Sounds/Change_1.wav</file>
+        <file>Sounds/Change_2.wav</file>
+        <file>Sounds/Change_3.wav</file>
+        <file>Sounds/Error.wav</file>
+        <file>Sounds/Harder.wav</file>
+        <file>Sounds/Hush.mp3</file>
+        <file>Sounds/Impossible.wav</file>
+        <file>Sounds/Is_it_possible.wav</file>
+        <file>Sounds/It_is_not_easy_(float_or_x_in_pow).wav</file>
+        <file>Sounds/Random.wav</file>
+        <file>Sounds/Select.wav</file>
+        <file>Sounds/Tell_me.wav</file>
+        <file>Sounds/Try_again.wav</file>
+        <file>Sounds/Where_is_it.wav</file>
+        <file>Sounds/Why.wav</file>
+        <file>Sounds/Your_death.wav</file>
+    </qresource>
+</RCC>
