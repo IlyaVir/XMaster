@@ -1,5 +1,6 @@
 # XMaster
 XMaster (exe for windows 10 x64):
+
 https://drive.google.com/drive/folders/1MsVYhE5FXIyU78sOs5jhazMu3oHizoIt?usp=sharing
 
 Программа работает с многочленами с переменной x.  Введённый многочлен приводится к стандартному виду и сохраняется. С сохранёнными многочленами можно производит различные операции (в том числе f(x); f'(x)).
