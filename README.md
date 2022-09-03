@@ -21,3 +21,9 @@ https://drive.google.com/drive/folders/1MsVYhE5FXIyU78sOs5jhazMu3oHizoIt?usp=sha
 К сожалению, код весьма некрасив в некоторых местах и имеет множество сомнительных решений.
 
 Я был молод (начало 2020-го года) и глуп и не знал ООП (однако был очень упорен и усерден).
+
+![](https://github.com/IlyaVir/XMaster/blob/main/Screenshots/XMaster_7.png)
+
+![](https://github.com/IlyaVir/XMaster/blob/main/Screenshots/XMaster_6.png)
+
+![](https://github.com/IlyaVir/XMaster/blob/main/Screenshots/XMaster_3.png)
